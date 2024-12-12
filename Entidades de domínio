@@ -1,0 +1,54 @@
+Entidades de Domínio
+
+1. Produto
+
+  Atributos:
+   - ID único
+   - Nome
+   - Tamanho
+   - Cor
+   - Quantidade em estoque
+   - Quantidade mínima em estoque
+
+2. Estoque
+
+  Atributos:
+   - Movimentações (entrada e saída de produtos)
+   - Quantidade disponível
+
+3. Venda
+
+  Atributos:
+   - Data
+   - Quantidade de produtos vendidos
+   - Lucro por produto
+
+4. Histórico de Estoque e Vendas
+
+  Atributos:
+   - Tendências ao longo do tempo
+   - Produtos mais vendidos
+   - Períodos de maior lucro
+
+5. Ordem de Compra
+
+  Atributos:
+   - Produtos solicitados
+   - Quantidade
+   - Fornecedor
+   - Status da ordem (em processamento, enviado, recebido)
+   - Prazo de entrega
+
+6. Fornecedor
+
+  Atributos:
+   - Nome
+   - Contato
+   - Atualizações sobre prazos de entrega
+
+7. Notificação
+
+  Atributos:
+   - Tipo (e-mail ou notificação no sistema)
+   - Mensagem
+   - Destinatário
