@@ -1,0 +1,31 @@
+Casos de Uso
+
+1. Gerenciar Produtos
+  - Adicionar, editar e excluir produtos.
+  - Atribuir informações adicionais (tamanho, cor, quantidade mínima).
+
+2. Rastreamento Individual de Produtos
+  - Identificar movimentações no estoque por ID único.
+
+3. Definir e Monitorar Quantidades Mínimas
+  - Configurar limite mínimo para cada produto.
+  - Gerar alertas quando o estoque estiver próximo ao limite.
+
+4. Receber Alertas
+  - Enviar alertas por e-mail ou notificação no sistema quando o estoque estiver baixo.
+
+5. Visualizar Histórico de Estoque e Vendas
+  - Exibir informações sobre:
+  - Produtos mais vendidos.
+  - Lucro por produto.
+  - Tendências de vendas e estoque ao longo do tempo.
+
+6. Criar e Gerenciar Ordens de Compra
+  - Gerar ordens automaticamente com base nos limites mínimos e tendências de vendas.
+  - Atualizar status da ordem (em processamento, enviado, recebido).
+
+7. Integrar com Fornecedores
+  - Receber atualizações automáticas sobre prazos de entrega.
+
+8. Tomar Decisões Baseadas em Dados
+  - Analisar tendências de vendas e estoque para planejar compras futuras.
